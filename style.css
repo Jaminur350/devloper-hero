@@ -5,10 +5,12 @@ body{
 h1{
     font-size: 50px;
 }
+
+
 .orange-color{
     color: orange;
 }
-section{
+.flexiable-conteiner{
     display: flex;
     margin-bottom: 150px;
 }
@@ -36,4 +38,33 @@ background-image: linear-gradient(orange, tomato);    padding: 10px 40px;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.feedback-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.feedback-box{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+#walmart-store{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan) 30;
+    border-image-slice: 1;
+}
+
+#amazon-store{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato,purple) 30;
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
 }
